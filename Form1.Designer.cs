@@ -72,6 +72,26 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.LblKasa = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.TxtKursunsuz95AlisTutar = new System.Windows.Forms.TextBox();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.TxtGazAlis = new System.Windows.Forms.TextBox();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.TxtProDizelAlis = new System.Windows.Forms.TextBox();
+            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.TxtEuroDizel10Alis = new System.Windows.Forms.TextBox();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.TxtKursunsuz97Alis = new System.Windows.Forms.TextBox();
+            this.TxtKursunsuz95Alis = new System.Windows.Forms.TextBox();
+            this.TxtGazAlisTutar = new System.Windows.Forms.TextBox();
+            this.TxtProDizelAlisTutar = new System.Windows.Forms.TextBox();
+            this.TxtEuroDizel10AlisTutar = new System.Windows.Forms.TextBox();
+            this.TxtKursunsuz97AlisTutar = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
@@ -81,6 +101,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -112,9 +138,9 @@
             this.LblGaz.Location = new System.Drawing.Point(208, 231);
             this.LblGaz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblGaz.Name = "LblGaz";
-            this.LblGaz.Size = new System.Drawing.Size(75, 24);
+            this.LblGaz.Size = new System.Drawing.Size(17, 24);
             this.LblGaz.TabIndex = 11;
-            this.LblGaz.Text = "label12";
+            this.LblGaz.Text = "-";
             // 
             // label11
             // 
@@ -133,9 +159,9 @@
             this.LblProDizel.Location = new System.Drawing.Point(208, 193);
             this.LblProDizel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblProDizel.Name = "LblProDizel";
-            this.LblProDizel.Size = new System.Drawing.Size(75, 24);
+            this.LblProDizel.Size = new System.Drawing.Size(17, 24);
             this.LblProDizel.TabIndex = 9;
-            this.LblProDizel.Text = "label10";
+            this.LblProDizel.Text = "-";
             // 
             // label9
             // 
@@ -164,9 +190,9 @@
             this.LblEuroDizel10.Location = new System.Drawing.Point(208, 156);
             this.LblEuroDizel10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblEuroDizel10.Name = "LblEuroDizel10";
-            this.LblEuroDizel10.Size = new System.Drawing.Size(64, 24);
+            this.LblEuroDizel10.Size = new System.Drawing.Size(17, 24);
             this.LblEuroDizel10.TabIndex = 6;
-            this.LblEuroDizel10.Text = "label7";
+            this.LblEuroDizel10.Text = "-";
             // 
             // label6
             // 
@@ -185,9 +211,9 @@
             this.LblKursunsuz97.Location = new System.Drawing.Point(208, 118);
             this.LblKursunsuz97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblKursunsuz97.Name = "LblKursunsuz97";
-            this.LblKursunsuz97.Size = new System.Drawing.Size(64, 24);
+            this.LblKursunsuz97.Size = new System.Drawing.Size(17, 24);
             this.LblKursunsuz97.TabIndex = 4;
-            this.LblKursunsuz97.Text = "label5";
+            this.LblKursunsuz97.Text = "-";
             // 
             // label4
             // 
@@ -207,9 +233,9 @@
             this.LblKursunsuz95.Location = new System.Drawing.Point(208, 80);
             this.LblKursunsuz95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblKursunsuz95.Name = "LblKursunsuz95";
-            this.LblKursunsuz95.Size = new System.Drawing.Size(64, 24);
+            this.LblKursunsuz95.Size = new System.Drawing.Size(17, 24);
             this.LblKursunsuz95.TabIndex = 2;
-            this.LblKursunsuz95.Text = "label3";
+            this.LblKursunsuz95.Text = "-";
             // 
             // label2
             // 
@@ -253,11 +279,17 @@
             this.groupBox2.Size = new System.Drawing.Size(338, 403);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Petrol Satış";
             // 
             // numericUpDown5
             // 
             this.numericUpDown5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numericUpDown5.Location = new System.Drawing.Point(19, 222);
+            this.numericUpDown5.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(120, 32);
             this.numericUpDown5.TabIndex = 30;
@@ -267,6 +299,11 @@
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numericUpDown4.Location = new System.Drawing.Point(19, 186);
+            this.numericUpDown4.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(120, 32);
             this.numericUpDown4.TabIndex = 29;
@@ -276,6 +313,11 @@
             // 
             this.numericUpDown3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numericUpDown3.Location = new System.Drawing.Point(19, 148);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(120, 32);
             this.numericUpDown3.TabIndex = 28;
@@ -285,6 +327,11 @@
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numericUpDown2.Location = new System.Drawing.Point(19, 110);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(120, 32);
             this.numericUpDown2.TabIndex = 27;
@@ -294,6 +341,11 @@
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numericUpDown1.Location = new System.Drawing.Point(19, 71);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 32);
             this.numericUpDown1.TabIndex = 26;
@@ -301,12 +353,13 @@
             // 
             // BtnDepoDoldur
             // 
+            this.BtnDepoDoldur.BackColor = System.Drawing.Color.Salmon;
             this.BtnDepoDoldur.Location = new System.Drawing.Point(29, 342);
             this.BtnDepoDoldur.Name = "BtnDepoDoldur";
             this.BtnDepoDoldur.Size = new System.Drawing.Size(285, 46);
             this.BtnDepoDoldur.TabIndex = 25;
-            this.BtnDepoDoldur.Text = "Depo Doldur";
-            this.BtnDepoDoldur.UseVisualStyleBackColor = true;
+            this.BtnDepoDoldur.Text = "Satış Yap";
+            this.BtnDepoDoldur.UseVisualStyleBackColor = false;
             this.BtnDepoDoldur.Click += new System.EventHandler(this.button1_Click);
             // 
             // label15
@@ -539,12 +592,222 @@
             this.label22.TabIndex = 21;
             this.label22.Text = "Kasa:";
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.TxtKursunsuz95AlisTutar);
+            this.groupBox5.Controls.Add(this.numericUpDown6);
+            this.groupBox5.Controls.Add(this.TxtGazAlis);
+            this.groupBox5.Controls.Add(this.numericUpDown7);
+            this.groupBox5.Controls.Add(this.TxtProDizelAlis);
+            this.groupBox5.Controls.Add(this.numericUpDown8);
+            this.groupBox5.Controls.Add(this.TxtEuroDizel10Alis);
+            this.groupBox5.Controls.Add(this.numericUpDown9);
+            this.groupBox5.Controls.Add(this.numericUpDown10);
+            this.groupBox5.Controls.Add(this.TxtKursunsuz97Alis);
+            this.groupBox5.Controls.Add(this.TxtKursunsuz95Alis);
+            this.groupBox5.Controls.Add(this.TxtGazAlisTutar);
+            this.groupBox5.Controls.Add(this.TxtProDizelAlisTutar);
+            this.groupBox5.Controls.Add(this.TxtEuroDizel10AlisTutar);
+            this.groupBox5.Controls.Add(this.TxtKursunsuz97AlisTutar);
+            this.groupBox5.Controls.Add(this.label7);
+            this.groupBox5.Controls.Add(this.label5);
+            this.groupBox5.Controls.Add(this.label3);
+            this.groupBox5.Controls.Add(this.button1);
+            this.groupBox5.Location = new System.Drawing.Point(1099, 12);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(436, 403);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Petrol Alış";
+            // 
+            // TxtKursunsuz95AlisTutar
+            // 
+            this.TxtKursunsuz95AlisTutar.Location = new System.Drawing.Point(291, 70);
+            this.TxtKursunsuz95AlisTutar.Name = "TxtKursunsuz95AlisTutar";
+            this.TxtKursunsuz95AlisTutar.Size = new System.Drawing.Size(127, 32);
+            this.TxtKursunsuz95AlisTutar.TabIndex = 36;
+            // 
+            // numericUpDown6
+            // 
+            this.numericUpDown6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.numericUpDown6.Location = new System.Drawing.Point(17, 225);
+            this.numericUpDown6.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(120, 32);
+            this.numericUpDown6.TabIndex = 35;
+            this.numericUpDown6.ValueChanged += new System.EventHandler(this.numericUpDown6_ValueChanged);
+            // 
+            // TxtGazAlis
+            // 
+            this.TxtGazAlis.Location = new System.Drawing.Point(147, 222);
+            this.TxtGazAlis.Name = "TxtGazAlis";
+            this.TxtGazAlis.Size = new System.Drawing.Size(127, 32);
+            this.TxtGazAlis.TabIndex = 33;
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.numericUpDown7.Location = new System.Drawing.Point(17, 189);
+            this.numericUpDown7.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(120, 32);
+            this.numericUpDown7.TabIndex = 34;
+            this.numericUpDown7.ValueChanged += new System.EventHandler(this.numericUpDown7_ValueChanged);
+            // 
+            // TxtProDizelAlis
+            // 
+            this.TxtProDizelAlis.Location = new System.Drawing.Point(147, 186);
+            this.TxtProDizelAlis.Name = "TxtProDizelAlis";
+            this.TxtProDizelAlis.Size = new System.Drawing.Size(127, 32);
+            this.TxtProDizelAlis.TabIndex = 32;
+            // 
+            // numericUpDown8
+            // 
+            this.numericUpDown8.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.numericUpDown8.Location = new System.Drawing.Point(17, 151);
+            this.numericUpDown8.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown8.Name = "numericUpDown8";
+            this.numericUpDown8.Size = new System.Drawing.Size(120, 32);
+            this.numericUpDown8.TabIndex = 33;
+            this.numericUpDown8.ValueChanged += new System.EventHandler(this.numericUpDown8_ValueChanged);
+            // 
+            // TxtEuroDizel10Alis
+            // 
+            this.TxtEuroDizel10Alis.Location = new System.Drawing.Point(147, 148);
+            this.TxtEuroDizel10Alis.Name = "TxtEuroDizel10Alis";
+            this.TxtEuroDizel10Alis.Size = new System.Drawing.Size(127, 32);
+            this.TxtEuroDizel10Alis.TabIndex = 31;
+            // 
+            // numericUpDown9
+            // 
+            this.numericUpDown9.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.numericUpDown9.Location = new System.Drawing.Point(17, 113);
+            this.numericUpDown9.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(120, 32);
+            this.numericUpDown9.TabIndex = 32;
+            this.numericUpDown9.ValueChanged += new System.EventHandler(this.numericUpDown9_ValueChanged);
+            // 
+            // numericUpDown10
+            // 
+            this.numericUpDown10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.numericUpDown10.Location = new System.Drawing.Point(17, 74);
+            this.numericUpDown10.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.Size = new System.Drawing.Size(120, 32);
+            this.numericUpDown10.TabIndex = 31;
+            this.numericUpDown10.ValueChanged += new System.EventHandler(this.numericUpDown10_ValueChanged);
+            // 
+            // TxtKursunsuz97Alis
+            // 
+            this.TxtKursunsuz97Alis.Location = new System.Drawing.Point(147, 110);
+            this.TxtKursunsuz97Alis.Name = "TxtKursunsuz97Alis";
+            this.TxtKursunsuz97Alis.Size = new System.Drawing.Size(127, 32);
+            this.TxtKursunsuz97Alis.TabIndex = 30;
+            // 
+            // TxtKursunsuz95Alis
+            // 
+            this.TxtKursunsuz95Alis.Location = new System.Drawing.Point(147, 72);
+            this.TxtKursunsuz95Alis.Name = "TxtKursunsuz95Alis";
+            this.TxtKursunsuz95Alis.Size = new System.Drawing.Size(127, 32);
+            this.TxtKursunsuz95Alis.TabIndex = 29;
+            // 
+            // TxtGazAlisTutar
+            // 
+            this.TxtGazAlisTutar.Location = new System.Drawing.Point(291, 222);
+            this.TxtGazAlisTutar.Name = "TxtGazAlisTutar";
+            this.TxtGazAlisTutar.Size = new System.Drawing.Size(127, 32);
+            this.TxtGazAlisTutar.TabIndex = 28;
+            // 
+            // TxtProDizelAlisTutar
+            // 
+            this.TxtProDizelAlisTutar.Location = new System.Drawing.Point(291, 186);
+            this.TxtProDizelAlisTutar.Name = "TxtProDizelAlisTutar";
+            this.TxtProDizelAlisTutar.Size = new System.Drawing.Size(127, 32);
+            this.TxtProDizelAlisTutar.TabIndex = 27;
+            // 
+            // TxtEuroDizel10AlisTutar
+            // 
+            this.TxtEuroDizel10AlisTutar.Location = new System.Drawing.Point(291, 148);
+            this.TxtEuroDizel10AlisTutar.Name = "TxtEuroDizel10AlisTutar";
+            this.TxtEuroDizel10AlisTutar.Size = new System.Drawing.Size(127, 32);
+            this.TxtEuroDizel10AlisTutar.TabIndex = 26;
+            // 
+            // TxtKursunsuz97AlisTutar
+            // 
+            this.TxtKursunsuz97AlisTutar.Location = new System.Drawing.Point(291, 110);
+            this.TxtKursunsuz97AlisTutar.Name = "TxtKursunsuz97AlisTutar";
+            this.TxtKursunsuz97AlisTutar.Size = new System.Drawing.Size(127, 32);
+            this.TxtKursunsuz97AlisTutar.TabIndex = 25;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(323, 32);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 24);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Tutar";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(156, 32);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(118, 24);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Litre Fiyatı";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(44, 32);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 24);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Litre";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightGreen;
+            this.button1.Location = new System.Drawing.Point(17, 342);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(401, 46);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Depo Doldur";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1096, 427);
+            this.ClientSize = new System.Drawing.Size(1530, 427);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -568,6 +831,13 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -618,6 +888,26 @@
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox TxtGazAlis;
+        private System.Windows.Forms.TextBox TxtProDizelAlis;
+        private System.Windows.Forms.TextBox TxtEuroDizel10Alis;
+        private System.Windows.Forms.TextBox TxtKursunsuz97Alis;
+        private System.Windows.Forms.TextBox TxtKursunsuz95Alis;
+        private System.Windows.Forms.TextBox TxtGazAlisTutar;
+        private System.Windows.Forms.TextBox TxtProDizelAlisTutar;
+        private System.Windows.Forms.TextBox TxtEuroDizel10AlisTutar;
+        private System.Windows.Forms.TextBox TxtKursunsuz97AlisTutar;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.NumericUpDown numericUpDown10;
+        private System.Windows.Forms.TextBox TxtKursunsuz95AlisTutar;
     }
 }
 
